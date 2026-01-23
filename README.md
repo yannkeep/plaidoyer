@@ -8,7 +8,7 @@ Application web progressive (PWA) qui guide les citoyens et associations dans la
 [![PWA](https://img.shields.io/badge/PWA-offline--ready-green.svg)](#)
 [![Status](https://img.shields.io/badge/status-beta-orange.svg)](#)
 
-🔗 **[Essayer l'application](https://yannkeep.github.io/start/arizona/town/playdo/app/index.html)** | 📖 **[Guide original (PDF)](https://www.justicepaix.be/le-petit-guide-du-plaidoyer-citoyen-15-outils-vers-le-changement/)**
+🔗 **[Essayer l'application](https://yannkeep.github.io/plaidoyer/index.html)** | 📖 **[Guide original (PDF)](https://www.justicepaix.be/le-petit-guide-du-plaidoyer-citoyen-15-outils-vers-le-changement/)**
 
 ---
 
@@ -76,7 +76,7 @@ Face aux crises sociales, environnementales et économiques, beaucoup de citoyen
 │                                             │
 ├─────────────────────────────────────────────┤
 │   👁️      ⚖️       ✊       🛠️            │
-│  Voir   Juger    Agir    Outils            │
+│  Voir   Juger    Agir    Outils             │
 └─────────────────────────────────────────────┘
 ```
 
@@ -85,7 +85,7 @@ Face aux crises sociales, environnementales et économiques, beaucoup de citoyen
 ## 🚀 Démarrage rapide
 
 ### Utilisation en ligne
-Cliquez simplement sur **[ce lien](https://yannkeep.github.io/start/arizona/town/playdo/app/index.html)** — l'application se charge et fonctionne ensuite hors-ligne.
+Cliquez simplement sur **[ce lien](https://yannkeep.github.io/plaidoyer/index.html)** — l'application se charge et fonctionne ensuite hors-ligne.
 
 ### Installation locale
 ```bash
