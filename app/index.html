@@ -18,7 +18,7 @@
     <meta name="keywords" content="plaidoyer citoyen, participation citoyenne, démocratie participative, éducation populaire, voir juger agir, advocacy, changement social, Belgique, sécurité sociale">
     <meta name="author" content="#B!Mi Collective">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://bimi.tools/plaidoyer">
+    <link rel="canonical" href="https://yannkeep.github.io/plaidoyer/app/index.html">
     
     <!-- ═══════════════════════════════════════════════════════════════════════════
          PWA - PROGRESSIVE WEB APP
@@ -44,7 +44,7 @@
     
     <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://bimi.tools/plaidoyer">
+    <meta property="og:url" content="https://yannkeep.github.io/plaidoyer/app/index.html">
     <meta property="og:title" content="#B!Mi — Plaidoyer Citoyen">
     <meta property="og:description" content="15 outils gratuits pour construire votre stratégie de changement social.">
     <meta property="og:locale" content="fr_BE">
@@ -4586,7 +4586,7 @@ async function generateDOCX(filename) {
         alignment: AlignmentType.CENTER
     }));
     children.push(new Paragraph({
-        children: [new TextRun({ text: 'Généré par #B!Mi Plaidoyer Citoyen — bimi.tools/plaidoyer — CC BY-NC-SA 4.0', size: 18, color: COLORS.muted })],
+        children: [new TextRun({ text: 'Généré par #B!Mi Plaidoyer Citoyen', size: 18, color: COLORS.muted })],
         alignment: AlignmentType.CENTER,
         spacing: { before: 100 }
     }));
@@ -5020,7 +5020,7 @@ function generatePrintableHTML() {
     
     <!-- FOOTER -->
     <div class="footer">
-        <p>Rapport généré par <strong>#B!Mi Plaidoyer Citoyen</strong> — https://bimi.tools/plaidoyer</p>
+        <p>Rapport généré par <strong>#B!Mi Plaidoyer Citoyen</strong> — https://yannkeep.github.io/plaidoyer/app/index.html</p>
         <p>Licence Creative Commons BY-NC-SA 4.0</p>
     </div>
 </body>
@@ -5185,7 +5185,7 @@ function generateMarkdown() {
         P.journal.forEach(j => md += `### 📅 ${j.date}\n\n${j.content}\n\n`);
     }
     
-    md += `---\n\n*Généré par **#B!Mi Plaidoyer Citoyen** — [bimi.tools/plaidoyer](https://bimi.tools/plaidoyer) — CC BY-NC-SA 4.0*\n`;
+    md += `---\n\n*Généré par **#B!Mi Plaidoyer Citoyen** — [Plaidoyer](https://yannkeep.github.io/plaidoyer/app/index.html) — CC BY-NC-SA 4.0*\n`;
     return md;
 }
 
@@ -5286,7 +5286,7 @@ ${P.journal?.length ? `<section class="section phase-agir"><h2>📔 Journal de B
 ${P.journal.map(j => `<div class="journal-entry"><div class="journal-date">📅 ${escHtml(j.date)}</div><div style="white-space:pre-wrap;">${fmtHtml(j.content)}</div></div>`).join('')}
 </section>` : ''}
 
-<footer class="footer"><p>Généré par <strong>#B!Mi Plaidoyer Citoyen</strong></p><p><a href="https://bimi.tools/plaidoyer">bimi.tools/plaidoyer</a> — CC BY-NC-SA 4.0</p></footer>
+<footer class="footer"><p>Généré par <strong>#B!Mi Plaidoyer Citoyen</strong></p><p><a href="https://yannkeep.github.io/plaidoyer/app/index.html">Plaidoyer Numérique</a></p></footer>
 </body></html>`;
 }
 
